@@ -1,5 +1,13 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/untitled.dir/main.cpp.o"
+  "CMakeFiles/untitled.dir/Board.cpp.o"
+  "CMakeFiles/untitled.dir/Demo.cpp.o"
+  "CMakeFiles/untitled.dir/FootCommander.cpp.o"
+  "CMakeFiles/untitled.dir/FootSoldier.cpp.o"
+  "CMakeFiles/untitled.dir/Paramedic.cpp.o"
+  "CMakeFiles/untitled.dir/ParamedicCommander.cpp.o"
+  "CMakeFiles/untitled.dir/Sniper.cpp.o"
+  "CMakeFiles/untitled.dir/SniperCommander.cpp.o"
+  "CMakeFiles/untitled.dir/Test.cpp.o"
   "untitled"
   "untitled.pdb"
 )

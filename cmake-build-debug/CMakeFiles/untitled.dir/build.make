@@ -43,10 +43,10 @@ RM = /home/yirat/Desktop/clion-2019.3.2/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yirat/Desktop/C++/untitled
+CMAKE_SOURCE_DIR = /home/yirat/Desktop/C++/Wargame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yirat/Desktop/C++/untitled/cmake-build-debug
+CMAKE_BINARY_DIR = /home/yirat/Desktop/C++/Wargame/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled.dir/depend.make
@@ -57,30 +57,150 @@ include CMakeFiles/untitled.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/untitled.dir/flags.make
 
-CMakeFiles/untitled.dir/main.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirat/Desktop/C++/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.o"
-	/usr/bin/clang++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/main.cpp.o -c /home/yirat/Desktop/C++/untitled/main.cpp
+CMakeFiles/untitled.dir/Demo.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Demo.cpp.o: ../Demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/Demo.cpp.o"
+	/usr/bin/clang++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Demo.cpp.o -c /home/yirat/Desktop/C++/Wargame/Demo.cpp
 
-CMakeFiles/untitled.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/main.cpp.i"
-	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirat/Desktop/C++/untitled/main.cpp > CMakeFiles/untitled.dir/main.cpp.i
+CMakeFiles/untitled.dir/Demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Demo.cpp.i"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirat/Desktop/C++/Wargame/Demo.cpp > CMakeFiles/untitled.dir/Demo.cpp.i
 
-CMakeFiles/untitled.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
-	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirat/Desktop/C++/untitled/main.cpp -o CMakeFiles/untitled.dir/main.cpp.s
+CMakeFiles/untitled.dir/Demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Demo.cpp.s"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirat/Desktop/C++/Wargame/Demo.cpp -o CMakeFiles/untitled.dir/Demo.cpp.s
+
+CMakeFiles/untitled.dir/Board.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Board.cpp.o: ../Board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/Board.cpp.o"
+	/usr/bin/clang++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Board.cpp.o -c /home/yirat/Desktop/C++/Wargame/Board.cpp
+
+CMakeFiles/untitled.dir/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Board.cpp.i"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirat/Desktop/C++/Wargame/Board.cpp > CMakeFiles/untitled.dir/Board.cpp.i
+
+CMakeFiles/untitled.dir/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Board.cpp.s"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirat/Desktop/C++/Wargame/Board.cpp -o CMakeFiles/untitled.dir/Board.cpp.s
+
+CMakeFiles/untitled.dir/FootSoldier.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/FootSoldier.cpp.o: ../FootSoldier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/FootSoldier.cpp.o"
+	/usr/bin/clang++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/FootSoldier.cpp.o -c /home/yirat/Desktop/C++/Wargame/FootSoldier.cpp
+
+CMakeFiles/untitled.dir/FootSoldier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/FootSoldier.cpp.i"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirat/Desktop/C++/Wargame/FootSoldier.cpp > CMakeFiles/untitled.dir/FootSoldier.cpp.i
+
+CMakeFiles/untitled.dir/FootSoldier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/FootSoldier.cpp.s"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirat/Desktop/C++/Wargame/FootSoldier.cpp -o CMakeFiles/untitled.dir/FootSoldier.cpp.s
+
+CMakeFiles/untitled.dir/FootCommander.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/FootCommander.cpp.o: ../FootCommander.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/FootCommander.cpp.o"
+	/usr/bin/clang++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/FootCommander.cpp.o -c /home/yirat/Desktop/C++/Wargame/FootCommander.cpp
+
+CMakeFiles/untitled.dir/FootCommander.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/FootCommander.cpp.i"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirat/Desktop/C++/Wargame/FootCommander.cpp > CMakeFiles/untitled.dir/FootCommander.cpp.i
+
+CMakeFiles/untitled.dir/FootCommander.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/FootCommander.cpp.s"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirat/Desktop/C++/Wargame/FootCommander.cpp -o CMakeFiles/untitled.dir/FootCommander.cpp.s
+
+CMakeFiles/untitled.dir/Sniper.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Sniper.cpp.o: ../Sniper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled.dir/Sniper.cpp.o"
+	/usr/bin/clang++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Sniper.cpp.o -c /home/yirat/Desktop/C++/Wargame/Sniper.cpp
+
+CMakeFiles/untitled.dir/Sniper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Sniper.cpp.i"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirat/Desktop/C++/Wargame/Sniper.cpp > CMakeFiles/untitled.dir/Sniper.cpp.i
+
+CMakeFiles/untitled.dir/Sniper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Sniper.cpp.s"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirat/Desktop/C++/Wargame/Sniper.cpp -o CMakeFiles/untitled.dir/Sniper.cpp.s
+
+CMakeFiles/untitled.dir/SniperCommander.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/SniperCommander.cpp.o: ../SniperCommander.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled.dir/SniperCommander.cpp.o"
+	/usr/bin/clang++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/SniperCommander.cpp.o -c /home/yirat/Desktop/C++/Wargame/SniperCommander.cpp
+
+CMakeFiles/untitled.dir/SniperCommander.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/SniperCommander.cpp.i"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirat/Desktop/C++/Wargame/SniperCommander.cpp > CMakeFiles/untitled.dir/SniperCommander.cpp.i
+
+CMakeFiles/untitled.dir/SniperCommander.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/SniperCommander.cpp.s"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirat/Desktop/C++/Wargame/SniperCommander.cpp -o CMakeFiles/untitled.dir/SniperCommander.cpp.s
+
+CMakeFiles/untitled.dir/Paramedic.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Paramedic.cpp.o: ../Paramedic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled.dir/Paramedic.cpp.o"
+	/usr/bin/clang++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Paramedic.cpp.o -c /home/yirat/Desktop/C++/Wargame/Paramedic.cpp
+
+CMakeFiles/untitled.dir/Paramedic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Paramedic.cpp.i"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirat/Desktop/C++/Wargame/Paramedic.cpp > CMakeFiles/untitled.dir/Paramedic.cpp.i
+
+CMakeFiles/untitled.dir/Paramedic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Paramedic.cpp.s"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirat/Desktop/C++/Wargame/Paramedic.cpp -o CMakeFiles/untitled.dir/Paramedic.cpp.s
+
+CMakeFiles/untitled.dir/ParamedicCommander.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/ParamedicCommander.cpp.o: ../ParamedicCommander.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled.dir/ParamedicCommander.cpp.o"
+	/usr/bin/clang++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/ParamedicCommander.cpp.o -c /home/yirat/Desktop/C++/Wargame/ParamedicCommander.cpp
+
+CMakeFiles/untitled.dir/ParamedicCommander.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/ParamedicCommander.cpp.i"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirat/Desktop/C++/Wargame/ParamedicCommander.cpp > CMakeFiles/untitled.dir/ParamedicCommander.cpp.i
+
+CMakeFiles/untitled.dir/ParamedicCommander.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/ParamedicCommander.cpp.s"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirat/Desktop/C++/Wargame/ParamedicCommander.cpp -o CMakeFiles/untitled.dir/ParamedicCommander.cpp.s
+
+CMakeFiles/untitled.dir/Test.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Test.cpp.o: ../Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/untitled.dir/Test.cpp.o"
+	/usr/bin/clang++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Test.cpp.o -c /home/yirat/Desktop/C++/Wargame/Test.cpp
+
+CMakeFiles/untitled.dir/Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Test.cpp.i"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yirat/Desktop/C++/Wargame/Test.cpp > CMakeFiles/untitled.dir/Test.cpp.i
+
+CMakeFiles/untitled.dir/Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Test.cpp.s"
+	/usr/bin/clang++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yirat/Desktop/C++/Wargame/Test.cpp -o CMakeFiles/untitled.dir/Test.cpp.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
-"CMakeFiles/untitled.dir/main.cpp.o"
+"CMakeFiles/untitled.dir/Demo.cpp.o" \
+"CMakeFiles/untitled.dir/Board.cpp.o" \
+"CMakeFiles/untitled.dir/FootSoldier.cpp.o" \
+"CMakeFiles/untitled.dir/FootCommander.cpp.o" \
+"CMakeFiles/untitled.dir/Sniper.cpp.o" \
+"CMakeFiles/untitled.dir/SniperCommander.cpp.o" \
+"CMakeFiles/untitled.dir/Paramedic.cpp.o" \
+"CMakeFiles/untitled.dir/ParamedicCommander.cpp.o" \
+"CMakeFiles/untitled.dir/Test.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
-untitled: CMakeFiles/untitled.dir/main.cpp.o
+untitled: CMakeFiles/untitled.dir/Demo.cpp.o
+untitled: CMakeFiles/untitled.dir/Board.cpp.o
+untitled: CMakeFiles/untitled.dir/FootSoldier.cpp.o
+untitled: CMakeFiles/untitled.dir/FootCommander.cpp.o
+untitled: CMakeFiles/untitled.dir/Sniper.cpp.o
+untitled: CMakeFiles/untitled.dir/SniperCommander.cpp.o
+untitled: CMakeFiles/untitled.dir/Paramedic.cpp.o
+untitled: CMakeFiles/untitled.dir/ParamedicCommander.cpp.o
+untitled: CMakeFiles/untitled.dir/Test.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yirat/Desktop/C++/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +213,6 @@ CMakeFiles/untitled.dir/clean:
 .PHONY : CMakeFiles/untitled.dir/clean
 
 CMakeFiles/untitled.dir/depend:
-	cd /home/yirat/Desktop/C++/untitled/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yirat/Desktop/C++/untitled /home/yirat/Desktop/C++/untitled /home/yirat/Desktop/C++/untitled/cmake-build-debug /home/yirat/Desktop/C++/untitled/cmake-build-debug /home/yirat/Desktop/C++/untitled/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yirat/Desktop/C++/Wargame/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yirat/Desktop/C++/Wargame /home/yirat/Desktop/C++/Wargame /home/yirat/Desktop/C++/Wargame/cmake-build-debug /home/yirat/Desktop/C++/Wargame/cmake-build-debug /home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/untitled.dir/depend
 
