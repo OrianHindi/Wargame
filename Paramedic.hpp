@@ -9,6 +9,6 @@
 class Paramedic : public Soldier{
 public:
     Paramedic(int num_player): Soldier(100,50, num_player){}
-    void take_activity () override;
+    void take_activity(std::pair<int,int> source,std::vector<std::vector<Soldier*>> board) override;
 
 };

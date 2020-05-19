@@ -10,6 +10,7 @@ class SniperCommander : public Soldier{
 public:
     SniperCommander(int num_player):Soldier(120,100,num_player){}
 
-    void take_activity() override ;
+    void take_activity(std::pair<int,int> source,std::vector<std::vector<Soldier*>> board) override;
+
 
 };
