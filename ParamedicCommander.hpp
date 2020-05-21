@@ -9,7 +9,8 @@ using namespace std;
 
 class ParamedicCommander : public Soldier{
 public:
-    ParamedicCommander(int num_payer): Soldier(200,100,num_payer){}
 
-    void take_activity(std::pair<int,int> source,std::vector<std::vector<Soldier*>> board) override;
+    ParamedicCommander(int num_payer): Soldier(200,num_payer,0,200){}
+
+    void take_activity(std::pair<int,int> source,std::vector<std::vector<Soldier*>>& board) override;
 };

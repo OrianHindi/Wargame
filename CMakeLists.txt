@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
-project(untitled)
+project(Wargame)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled Demo.cpp Soldier.hpp Board.cpp FootSoldier.cpp FootSoldier.hpp FootCommander.cpp FootCommander.hpp Sniper.cpp Sniper.hpp SniperCommander.cpp SniperCommander.hpp Paramedic.cpp Paramedic.hpp ParamedicCommander.cpp ParamedicCommander.hpp Test.cpp)
+add_executable(Wargame Demo.cpp Soldier.hpp FootCommander.hpp FootSoldier.hpp Board.hpp DemoGame.hpp DemoGame.cpp)

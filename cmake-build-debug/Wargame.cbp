@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="untitled"/>
+		<Option title="Wargame"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -27,8 +27,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yirat/Desktop/C++/Wargame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="untitled">
-				<Option output="/home/yirat/Desktop/C++/Wargame/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+			<Target title="Wargame">
+				<Option output="/home/yirat/Desktop/C++/Wargame/cmake-build-debug/Wargame" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/yirat/Desktop/C++/Wargame/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -45,14 +45,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/yirat/Desktop/C++/Wargame/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yirat/Desktop/C++/Wargame/cmake-build-debug/Makefile&quot;  VERBOSE=1 Wargame"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yirat/Desktop/C++/Wargame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/yirat/Desktop/C++/Wargame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yirat/Desktop/C++/Wargame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="untitled/fast">
-				<Option output="/home/yirat/Desktop/C++/Wargame/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+			<Target title="Wargame/fast">
+				<Option output="/home/yirat/Desktop/C++/Wargame/cmake-build-debug/Wargame" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/yirat/Desktop/C++/Wargame/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -69,7 +69,7 @@
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/yirat/Desktop/C++/Wargame/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yirat/Desktop/C++/Wargame/cmake-build-debug/Makefile&quot;  VERBOSE=1 Wargame/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yirat/Desktop/C++/Wargame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/yirat/Desktop/C++/Wargame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yirat/Desktop/C++/Wargame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -87,19 +87,25 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/yirat/Desktop/C++/Wargame/Board.hpp">
-			<Option target="untitled"/>
+			<Option target="Wargame"/>
 		</Unit>
 		<Unit filename="/home/yirat/Desktop/C++/Wargame/Demo.cpp">
-			<Option target="untitled"/>
+			<Option target="Wargame"/>
+		</Unit>
+		<Unit filename="/home/yirat/Desktop/C++/Wargame/DemoGame.cpp">
+			<Option target="Wargame"/>
+		</Unit>
+		<Unit filename="/home/yirat/Desktop/C++/Wargame/DemoGame.hpp">
+			<Option target="Wargame"/>
 		</Unit>
 		<Unit filename="/home/yirat/Desktop/C++/Wargame/FootCommander.hpp">
-			<Option target="untitled"/>
+			<Option target="Wargame"/>
 		</Unit>
 		<Unit filename="/home/yirat/Desktop/C++/Wargame/FootSoldier.hpp">
-			<Option target="untitled"/>
+			<Option target="Wargame"/>
 		</Unit>
 		<Unit filename="/home/yirat/Desktop/C++/Wargame/Soldier.hpp">
-			<Option target="untitled"/>
+			<Option target="Wargame"/>
 		</Unit>
 		<Unit filename="/home/yirat/Desktop/C++/Wargame/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

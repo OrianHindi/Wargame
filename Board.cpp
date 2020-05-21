@@ -1,12 +1,12 @@
 //
 // Created by yirat on 19/05/2020.
 //
-#include "oBoard.hpp"
+#include "Board.hpp"
 using namespace std;
 
 bool WarGame::Board::has_soldiers(uint player_number) const{
-    if(player_number==1 && Soldier::num1==0) return false;
-    if(player_number==2 && Soldier::num2==0) return false;
+    if(player_number==1 && num1==0) return false;
+    if(player_number==2 && num2==0) return false;
     return true;
 }
 
@@ -19,7 +19,7 @@ void WarGame::Board::move(uint player_number, std::pair<int,int> source, MoveDIR
             target.second=source.second;
             break;
         case Down:
-            target.first=source.first-1
+            target.first=source.first-1;
             target.second=source.second;
             break;
         case Left:
@@ -31,7 +31,7 @@ void WarGame::Board::move(uint player_number, std::pair<int,int> source, MoveDIR
             target.second=source.second+1;
             break;
     }
-    if((toMove == nullptr || toMove->player!=player_number || (*this)[target]!= nullptr){
+    if(toMove == nullptr || toMove->player!=player_number || (*this)[target]!= nullptr){
         throw invalid_argument("Action is forbidden");
     }
     if(target.first<0 || target.first>=board.size()|| target.second<0 || target.second>=board[target.first].size()) {
@@ -39,7 +39,7 @@ void WarGame::Board::move(uint player_number, std::pair<int,int> source, MoveDIR
     }
     (*this)[target]=toMove;
     (*this)[source]=nullptr;
-
+    toMove->take_activity(target,board);
 
 }
 

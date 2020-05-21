@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yirat/Desktop/C++/Wargame/Board.hpp
+string
+-
+vector
+-
+stdexcept
+-
+Soldier.hpp
+/home/yirat/Desktop/C++/Wargame/Soldier.hpp
+
+/home/yirat/Desktop/C++/Wargame/Demo.cpp
+iostream
+-
+DemoGame.hpp
+/home/yirat/Desktop/C++/Wargame/DemoGame.hpp
+
+/home/yirat/Desktop/C++/Wargame/DemoGame.hpp
+Board.hpp
+/home/yirat/Desktop/C++/Wargame/Board.hpp
+
+/home/yirat/Desktop/C++/Wargame/Soldier.hpp
+vector
+-
+utility
+-
+limits
+-
+cmath
+-
+
