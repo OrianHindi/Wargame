@@ -118,8 +118,20 @@ TEST_CASE("Move Function - Commander"){
         CHECK(p[{3,2}]->HP==p[{3,2}]->maxHP);
         CHECK(p[{3,2}]->HP==p[{3,2}]->maxHP);
 
-    p.move(2,{})
+    p.move(2,{0,4},WarGame::Board::Up);
+        CHECK(p[{0,4}]==nullptr);
+        CHECK(typeid(p[{1,4}])== typeid(FootCommander));
+        CHECK(p[{1,3}]->HP==100);
+        CHECK(p[{0,0}]->HP==90);
+    p.move(2,{0,3},WarGame::Board::Left);
+        CHECK(p[{0,3}]==nullptr);
+        CHECK(typeid(p[{0,2}])==typeid(SniperCommander));
+        CHECK(p[{1,3}]->HP==20);
+        CHECK(p[{4,0}]==40);
 
+     p.move(2,{4,4},WarGame::Board::Down);
+        CHECK(p[{4,4}]==nullptr);
+        CHECK(typeid(p[{3,4}])==typeid(ParamedicCommander));
 }
 
 
