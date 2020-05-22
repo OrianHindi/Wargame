@@ -123,59 +123,32 @@ Wargame/fast:
 	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/build
 .PHONY : Wargame/fast
 
-Demo.o: Demo.cpp.o
+Test.o: Test.cpp.o
 
-.PHONY : Demo.o
-
-# target to build an object file
-Demo.cpp.o:
-	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Demo.cpp.o
-.PHONY : Demo.cpp.o
-
-Demo.i: Demo.cpp.i
-
-.PHONY : Demo.i
-
-# target to preprocess a source file
-Demo.cpp.i:
-	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Demo.cpp.i
-.PHONY : Demo.cpp.i
-
-Demo.s: Demo.cpp.s
-
-.PHONY : Demo.s
-
-# target to generate assembly for a file
-Demo.cpp.s:
-	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Demo.cpp.s
-.PHONY : Demo.cpp.s
-
-DemoGame.o: DemoGame.cpp.o
-
-.PHONY : DemoGame.o
+.PHONY : Test.o
 
 # target to build an object file
-DemoGame.cpp.o:
-	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/DemoGame.cpp.o
-.PHONY : DemoGame.cpp.o
+Test.cpp.o:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Test.cpp.o
+.PHONY : Test.cpp.o
 
-DemoGame.i: DemoGame.cpp.i
+Test.i: Test.cpp.i
 
-.PHONY : DemoGame.i
+.PHONY : Test.i
 
 # target to preprocess a source file
-DemoGame.cpp.i:
-	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/DemoGame.cpp.i
-.PHONY : DemoGame.cpp.i
+Test.cpp.i:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Test.cpp.i
+.PHONY : Test.cpp.i
 
-DemoGame.s: DemoGame.cpp.s
+Test.s: Test.cpp.s
 
-.PHONY : DemoGame.s
+.PHONY : Test.s
 
 # target to generate assembly for a file
-DemoGame.cpp.s:
-	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/DemoGame.cpp.s
-.PHONY : DemoGame.cpp.s
+Test.cpp.s:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Test.cpp.s
+.PHONY : Test.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Wargame"
 	@echo "... edit_cache"
-	@echo "... Demo.o"
-	@echo "... Demo.i"
-	@echo "... Demo.s"
-	@echo "... DemoGame.o"
-	@echo "... DemoGame.i"
-	@echo "... DemoGame.s"
+	@echo "... Test.o"
+	@echo "... Test.i"
+	@echo "... Test.s"
 .PHONY : help
 
 

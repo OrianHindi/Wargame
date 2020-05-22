@@ -3,6 +3,7 @@
 #include <vector>
 #include <utility>
 #include <limits>
+#include <iostream>
 #include <cmath>
 
 static int num1=0;
@@ -15,11 +16,9 @@ public:
     const int maxHP;
     const int AP;
 
-    Soldier(int HP, int player,int AP,int maxHP):
-            HP(HP), player(player) , AP(AP) ,maxHP(maxHP) {
-        if(player==1)num1++;
-        if(player==2)num2++;
-    }
+
+    Soldier(int HP, int player,int AP,int maxHP): HP(HP), player(player) , AP(AP) ,maxHP(maxHP) {}
+
     virtual ~Soldier(){
         if(player==1)num1--;
         if(player==2)num2--;

@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yirat/Desktop/C++/Wargame/Demo.cpp" "/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles/Wargame.dir/Demo.cpp.o"
-  "/home/yirat/Desktop/C++/Wargame/DemoGame.cpp" "/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles/Wargame.dir/DemoGame.cpp.o"
+  "/home/yirat/Desktop/C++/Wargame/Test.cpp" "/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles/Wargame.dir/Test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
