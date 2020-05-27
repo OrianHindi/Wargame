@@ -1,3 +1,5 @@
+file:///C:/Users/yardn/Desktop/Ex5%20codes/Screenshot_2.png
+
 <div dir="rtl" lang="he">
 
 # משחק מלחמה - שלב א
