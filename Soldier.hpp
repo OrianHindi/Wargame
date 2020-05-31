@@ -6,8 +6,6 @@
 #include <iostream>
 #include <cmath>
 
-static int num1=0;
-static int num2=0;
 
 class Soldier{
 public:
@@ -20,8 +18,7 @@ public:
     Soldier(int HP, int player,int AP,int maxHP): HP(HP), player(player) , AP(AP) ,maxHP(maxHP) {}
 
     virtual ~Soldier(){
-        if(player==1)num1--;
-        if(player==2)num2--;
+
     }
 
     virtual void take_activity(std::pair<int,int> source,std::vector<std::vector<Soldier*>>& board)=0;
@@ -47,6 +44,7 @@ public:
         }
         return ans;
     }
+
 };
 
 //int Soldier::num1=0;

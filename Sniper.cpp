@@ -4,6 +4,8 @@
 
 #include "Sniper.hpp"
 
+
+ // מורידה חיים לשחקן שאנחנו רוצים לתקוף
 void Sniper::take_activity(std::pair<int,int> source,std::vector<std::vector<Soldier*>>& board){
     std::pair<int,int> toAttack = this->minDistance(source,board);
     int life =board[toAttack.first][toAttack.second]->HP;
