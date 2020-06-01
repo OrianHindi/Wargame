@@ -17,7 +17,7 @@ void FootCommander::take_activity(std::pair<int,int> source,std::vector<std::vec
     }
     for(int i = 0; i<board.size(); i++){
         for(int j =0; j<board[i].size() ; j++){
-            if(board[i][j]->player==check && dynamic_cast<FootSoldier*>(board[i][j]))
+            if(board[i][j]!=nullptr && board[i][j]->player==check && dynamic_cast<FootSoldier*>(board[i][j]))
                 board[i][j]->take_activity({i,j},board);
         }
     }

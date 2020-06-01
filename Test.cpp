@@ -11,9 +11,6 @@
 #include "Paramedic.hpp"
 #include "ParamedicCommander.hpp"
 
-FootSoldier* checkk = new FootSoldier(1);
-
-
 WarGame::Board fillBoard(){
     WarGame::Board p(6,6);
     p[{0,0}]= new FootSoldier(1);
@@ -92,64 +89,64 @@ TEST_CASE("Check Adding player to board 2"){
             CHECK(typeid(*p[{4,0}]) == typeid(Sniper));
 }
 
-//TEST_CASE("Move function - no Commander"){
-//    WarGame::Board p = fillBoard();
-//    p.move(1,{0,0},WarGame::Board::Up);
-//            CHECK(p[{0,0}]== nullptr);
-//            CHECK(typeid(*p[{1,0}])==typeid(FootSoldier));
-//
-//    p.move(1,{0,1},WarGame::Board::Right);
-//            CHECK(p[{0,1}]==nullptr);
-//            CHECK(typeid(*p[{0,2}])== typeid(Sniper));
-//
-//    p.move(1,{5,1},WarGame::Board::Down);
-//            CHECK(p[{5,1}]==nullptr);
-//            CHECK(typeid(*p[{4,1}])== typeid(Paramedic));
-//
-//
-//    p.move(2,{3,0},WarGame::Board::Right);
-//            CHECK(p[{3,0}]== nullptr);
-//            CHECK(typeid(*p[{3,1}])==typeid(Sniper));
-//
-//    p.move(2,{3,3},WarGame::Board::Up);
-//            CHECK(p[{3,3}]== nullptr);
-//            CHECK(typeid(*p[{4,3}])==typeid(FootSoldier));
-//
-//    p.move(2,{1,3},WarGame::Board::Right);
-//            CHECK(p[{1,3}]== nullptr);
-//            CHECK(typeid(*p[{1,4}])==typeid(Paramedic));
-//
-//}
-//
-//TEST_CASE("Move Function - Commander"){
-//    WarGame::Board p = fillCommBoard();
-//    p.move(1,{2,2},WarGame::Board::Up);
-//            CHECK(p[{2,2}]==nullptr);
-//            CHECK(typeid(*p[{3,2}])== typeid(FootCommander));
-//
-//    p.move(1,{2,3},WarGame::Board::Down);
-//          CHECK(p[{2,3}]==nullptr);
-//            CHECK(typeid(*p[{1,3}])==typeid(SniperCommander));
-//
-//
-//    p.move(1,{4,3},WarGame::Board::Down);
-//          CHECK(p[{4,3}]==nullptr);
-//            CHECK(typeid(*p[{3,3}])==typeid(ParamedicCommander));
-//
-//
-//    p.move(2,{0,4},WarGame::Board::Up);
-//          CHECK(p[{0,4}]==nullptr);
-//            CHECK(typeid(*p[{1,4}])== typeid(FootCommander));
-//
-//    p.move(2,{0,3},WarGame::Board::Left);
-//          CHECK(p[{0,3}]==nullptr);
-//            CHECK(typeid(*p[{0,2}])==typeid(SniperCommander));
-//          CHECK(p[{1,3}]==nullptr);
-//
-//    p.move(2,{4,4},WarGame::Board::Down);
-//          CHECK(p[{4,4}]==nullptr);
-//            CHECK(typeid(*p[{3,4}])==typeid(ParamedicCommander));
-//}
+TEST_CASE("Move function - no Commander"){
+    WarGame::Board p = fillBoard();
+    p.move(1,{0,0},WarGame::Board::Up);
+            CHECK(p[{0,0}]== nullptr);
+            CHECK(typeid(*p[{1,0}])==typeid(FootSoldier));
+
+    p.move(1,{0,1},WarGame::Board::Right);
+            CHECK(p[{0,1}]==nullptr);
+            CHECK(typeid(*p[{0,2}])== typeid(Sniper));
+
+    p.move(1,{5,1},WarGame::Board::Down);
+            CHECK(p[{5,1}]==nullptr);
+            CHECK(typeid(*p[{4,1}])== typeid(Paramedic));
+
+
+    p.move(2,{3,0},WarGame::Board::Right);
+            CHECK(p[{3,0}]== nullptr);
+            CHECK(typeid(*p[{3,1}])==typeid(Sniper));
+
+    p.move(2,{3,3},WarGame::Board::Up);
+            CHECK(p[{3,3}]== nullptr);
+            CHECK(typeid(*p[{4,3}])==typeid(FootSoldier));
+
+    p.move(2,{1,3},WarGame::Board::Right);
+            CHECK(p[{1,3}]== nullptr);
+            CHECK(typeid(*p[{1,4}])==typeid(Paramedic));
+
+}
+
+TEST_CASE("Move Function - Commander"){
+    WarGame::Board p = fillCommBoard();
+    p.move(1,{2,2},WarGame::Board::Up);
+            CHECK(p[{2,2}]==nullptr);
+            CHECK(typeid(*p[{3,2}])== typeid(FootCommander));
+
+    p.move(1,{2,3},WarGame::Board::Down);
+          CHECK(p[{2,3}]==nullptr);
+            CHECK(typeid(*p[{1,3}])==typeid(SniperCommander));
+
+
+    p.move(1,{4,3},WarGame::Board::Down);
+          CHECK(p[{4,3}]==nullptr);
+            CHECK(typeid(*p[{3,3}])==typeid(ParamedicCommander));
+
+
+    p.move(2,{0,4},WarGame::Board::Up);
+          CHECK(p[{0,4}]==nullptr);
+            CHECK(typeid(*p[{1,4}])== typeid(FootCommander));
+
+    p.move(2,{0,3},WarGame::Board::Left);
+          CHECK(p[{0,3}]==nullptr);
+            CHECK(typeid(*p[{0,2}])==typeid(SniperCommander));
+          CHECK(p[{1,3}]==nullptr);
+
+    p.move(2,{4,4},WarGame::Board::Down);
+          CHECK(p[{4,4}]==nullptr);
+            CHECK(typeid(*p[{3,4}])==typeid(ParamedicCommander));
+}
 
 TEST_CASE("Exceptions") {
     WarGame::Board p = fillBoard();
@@ -185,7 +182,6 @@ TEST_CASE("Check Moves"){
             CHECK_NOTHROW(p.move(1,{0,1},WarGame::Board::Left));
             CHECK_NOTHROW(p.move(1,{2,1},WarGame::Board::Down));
             CHECK_NOTHROW(p.move(2,{0,3},WarGame::Board::Right));
-            CHECK_NOTHROW(p.move(2,{1,3},WarGame::Board::Right));
             CHECK_NOTHROW(p.move(2,{3,0},WarGame::Board::Down));
             CHECK_NOTHROW(p.move(2,{3,3},WarGame::Board::Right));
             CHECK_NOTHROW(p.move(2,{3,5},WarGame::Board::Down));

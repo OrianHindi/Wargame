@@ -4,7 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yirat/Desktop/C++/Wargame/Test.cpp" "/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles/Wargame.dir/Test.cpp.o"
+  "/home/yirat/Desktop/C++/Wargame/Board.cpp" "/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles/Wargame.dir/Board.cpp.o"
+  "/home/yirat/Desktop/C++/Wargame/Demo.cpp" "/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles/Wargame.dir/Demo.cpp.o"
+  "/home/yirat/Desktop/C++/Wargame/FootCommander.cpp" "/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles/Wargame.dir/FootCommander.cpp.o"
+  "/home/yirat/Desktop/C++/Wargame/FootSoldier.cpp" "/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles/Wargame.dir/FootSoldier.cpp.o"
+  "/home/yirat/Desktop/C++/Wargame/Paramedic.cpp" "/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles/Wargame.dir/Paramedic.cpp.o"
+  "/home/yirat/Desktop/C++/Wargame/ParamedicCommander.cpp" "/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles/Wargame.dir/ParamedicCommander.cpp.o"
+  "/home/yirat/Desktop/C++/Wargame/Sniper.cpp" "/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles/Wargame.dir/Sniper.cpp.o"
+  "/home/yirat/Desktop/C++/Wargame/SniperCommander.cpp" "/home/yirat/Desktop/C++/Wargame/cmake-build-debug/CMakeFiles/Wargame.dir/SniperCommander.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

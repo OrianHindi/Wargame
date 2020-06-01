@@ -86,25 +86,55 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/yirat/Desktop/C++/Wargame/Board.cpp">
+			<Option target="Wargame"/>
+		</Unit>
 		<Unit filename="/home/yirat/Desktop/C++/Wargame/Board.hpp">
+			<Option target="Wargame"/>
+		</Unit>
+		<Unit filename="/home/yirat/Desktop/C++/Wargame/Demo.cpp">
 			<Option target="Wargame"/>
 		</Unit>
 		<Unit filename="/home/yirat/Desktop/C++/Wargame/DemoGame.hpp">
 			<Option target="Wargame"/>
 		</Unit>
+		<Unit filename="/home/yirat/Desktop/C++/Wargame/FootCommander.cpp">
+			<Option target="Wargame"/>
+		</Unit>
 		<Unit filename="/home/yirat/Desktop/C++/Wargame/FootCommander.hpp">
+			<Option target="Wargame"/>
+		</Unit>
+		<Unit filename="/home/yirat/Desktop/C++/Wargame/FootSoldier.cpp">
 			<Option target="Wargame"/>
 		</Unit>
 		<Unit filename="/home/yirat/Desktop/C++/Wargame/FootSoldier.hpp">
 			<Option target="Wargame"/>
 		</Unit>
+		<Unit filename="/home/yirat/Desktop/C++/Wargame/Paramedic.cpp">
+			<Option target="Wargame"/>
+		</Unit>
+		<Unit filename="/home/yirat/Desktop/C++/Wargame/Paramedic.hpp">
+			<Option target="Wargame"/>
+		</Unit>
+		<Unit filename="/home/yirat/Desktop/C++/Wargame/ParamedicCommander.cpp">
+			<Option target="Wargame"/>
+		</Unit>
+		<Unit filename="/home/yirat/Desktop/C++/Wargame/ParamedicCommander.hpp">
+			<Option target="Wargame"/>
+		</Unit>
+		<Unit filename="/home/yirat/Desktop/C++/Wargame/Sniper.cpp">
+			<Option target="Wargame"/>
+		</Unit>
+		<Unit filename="/home/yirat/Desktop/C++/Wargame/Sniper.hpp">
+			<Option target="Wargame"/>
+		</Unit>
+		<Unit filename="/home/yirat/Desktop/C++/Wargame/SniperCommander.cpp">
+			<Option target="Wargame"/>
+		</Unit>
+		<Unit filename="/home/yirat/Desktop/C++/Wargame/SniperCommander.hpp">
+			<Option target="Wargame"/>
+		</Unit>
 		<Unit filename="/home/yirat/Desktop/C++/Wargame/Soldier.hpp">
-			<Option target="Wargame"/>
-		</Unit>
-		<Unit filename="/home/yirat/Desktop/C++/Wargame/Test.cpp">
-			<Option target="Wargame"/>
-		</Unit>
-		<Unit filename="/home/yirat/Desktop/C++/Wargame/doctest.h">
 			<Option target="Wargame"/>
 		</Unit>
 		<Unit filename="/home/yirat/Desktop/C++/Wargame/CMakeLists.txt">

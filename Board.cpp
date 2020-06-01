@@ -14,7 +14,7 @@ bool WarGame::Board::has_soldiers(uint player_number) const{
    return false;
 }
 
-void WarGame::Board::move(uint player_number, std::pair<int,int> source, MoveDIR direction){
+void WarGame::Board::move(uint player_number, pair<int,int> source, MoveDIR direction){
     if(source.first<0 || source.first>=board.size()|| source.second<0 || source.second>=board[source.first].size()) {
         throw invalid_argument("Action is forbidden,out of Board");
     }

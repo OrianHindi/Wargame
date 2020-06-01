@@ -123,32 +123,221 @@ Wargame/fast:
 	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/build
 .PHONY : Wargame/fast
 
-Test.o: Test.cpp.o
+Board.o: Board.cpp.o
 
-.PHONY : Test.o
+.PHONY : Board.o
 
 # target to build an object file
-Test.cpp.o:
-	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Test.cpp.o
-.PHONY : Test.cpp.o
+Board.cpp.o:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Board.cpp.o
+.PHONY : Board.cpp.o
 
-Test.i: Test.cpp.i
+Board.i: Board.cpp.i
 
-.PHONY : Test.i
+.PHONY : Board.i
 
 # target to preprocess a source file
-Test.cpp.i:
-	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Test.cpp.i
-.PHONY : Test.cpp.i
+Board.cpp.i:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Board.cpp.i
+.PHONY : Board.cpp.i
 
-Test.s: Test.cpp.s
+Board.s: Board.cpp.s
 
-.PHONY : Test.s
+.PHONY : Board.s
 
 # target to generate assembly for a file
-Test.cpp.s:
-	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Test.cpp.s
-.PHONY : Test.cpp.s
+Board.cpp.s:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Board.cpp.s
+.PHONY : Board.cpp.s
+
+Demo.o: Demo.cpp.o
+
+.PHONY : Demo.o
+
+# target to build an object file
+Demo.cpp.o:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Demo.cpp.o
+.PHONY : Demo.cpp.o
+
+Demo.i: Demo.cpp.i
+
+.PHONY : Demo.i
+
+# target to preprocess a source file
+Demo.cpp.i:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Demo.cpp.i
+.PHONY : Demo.cpp.i
+
+Demo.s: Demo.cpp.s
+
+.PHONY : Demo.s
+
+# target to generate assembly for a file
+Demo.cpp.s:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Demo.cpp.s
+.PHONY : Demo.cpp.s
+
+FootCommander.o: FootCommander.cpp.o
+
+.PHONY : FootCommander.o
+
+# target to build an object file
+FootCommander.cpp.o:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/FootCommander.cpp.o
+.PHONY : FootCommander.cpp.o
+
+FootCommander.i: FootCommander.cpp.i
+
+.PHONY : FootCommander.i
+
+# target to preprocess a source file
+FootCommander.cpp.i:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/FootCommander.cpp.i
+.PHONY : FootCommander.cpp.i
+
+FootCommander.s: FootCommander.cpp.s
+
+.PHONY : FootCommander.s
+
+# target to generate assembly for a file
+FootCommander.cpp.s:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/FootCommander.cpp.s
+.PHONY : FootCommander.cpp.s
+
+FootSoldier.o: FootSoldier.cpp.o
+
+.PHONY : FootSoldier.o
+
+# target to build an object file
+FootSoldier.cpp.o:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/FootSoldier.cpp.o
+.PHONY : FootSoldier.cpp.o
+
+FootSoldier.i: FootSoldier.cpp.i
+
+.PHONY : FootSoldier.i
+
+# target to preprocess a source file
+FootSoldier.cpp.i:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/FootSoldier.cpp.i
+.PHONY : FootSoldier.cpp.i
+
+FootSoldier.s: FootSoldier.cpp.s
+
+.PHONY : FootSoldier.s
+
+# target to generate assembly for a file
+FootSoldier.cpp.s:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/FootSoldier.cpp.s
+.PHONY : FootSoldier.cpp.s
+
+Paramedic.o: Paramedic.cpp.o
+
+.PHONY : Paramedic.o
+
+# target to build an object file
+Paramedic.cpp.o:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Paramedic.cpp.o
+.PHONY : Paramedic.cpp.o
+
+Paramedic.i: Paramedic.cpp.i
+
+.PHONY : Paramedic.i
+
+# target to preprocess a source file
+Paramedic.cpp.i:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Paramedic.cpp.i
+.PHONY : Paramedic.cpp.i
+
+Paramedic.s: Paramedic.cpp.s
+
+.PHONY : Paramedic.s
+
+# target to generate assembly for a file
+Paramedic.cpp.s:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Paramedic.cpp.s
+.PHONY : Paramedic.cpp.s
+
+ParamedicCommander.o: ParamedicCommander.cpp.o
+
+.PHONY : ParamedicCommander.o
+
+# target to build an object file
+ParamedicCommander.cpp.o:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/ParamedicCommander.cpp.o
+.PHONY : ParamedicCommander.cpp.o
+
+ParamedicCommander.i: ParamedicCommander.cpp.i
+
+.PHONY : ParamedicCommander.i
+
+# target to preprocess a source file
+ParamedicCommander.cpp.i:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/ParamedicCommander.cpp.i
+.PHONY : ParamedicCommander.cpp.i
+
+ParamedicCommander.s: ParamedicCommander.cpp.s
+
+.PHONY : ParamedicCommander.s
+
+# target to generate assembly for a file
+ParamedicCommander.cpp.s:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/ParamedicCommander.cpp.s
+.PHONY : ParamedicCommander.cpp.s
+
+Sniper.o: Sniper.cpp.o
+
+.PHONY : Sniper.o
+
+# target to build an object file
+Sniper.cpp.o:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Sniper.cpp.o
+.PHONY : Sniper.cpp.o
+
+Sniper.i: Sniper.cpp.i
+
+.PHONY : Sniper.i
+
+# target to preprocess a source file
+Sniper.cpp.i:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Sniper.cpp.i
+.PHONY : Sniper.cpp.i
+
+Sniper.s: Sniper.cpp.s
+
+.PHONY : Sniper.s
+
+# target to generate assembly for a file
+Sniper.cpp.s:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/Sniper.cpp.s
+.PHONY : Sniper.cpp.s
+
+SniperCommander.o: SniperCommander.cpp.o
+
+.PHONY : SniperCommander.o
+
+# target to build an object file
+SniperCommander.cpp.o:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/SniperCommander.cpp.o
+.PHONY : SniperCommander.cpp.o
+
+SniperCommander.i: SniperCommander.cpp.i
+
+.PHONY : SniperCommander.i
+
+# target to preprocess a source file
+SniperCommander.cpp.i:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/SniperCommander.cpp.i
+.PHONY : SniperCommander.cpp.i
+
+SniperCommander.s: SniperCommander.cpp.s
+
+.PHONY : SniperCommander.s
+
+# target to generate assembly for a file
+SniperCommander.cpp.s:
+	$(MAKE) -f CMakeFiles/Wargame.dir/build.make CMakeFiles/Wargame.dir/SniperCommander.cpp.s
+.PHONY : SniperCommander.cpp.s
 
 # Help Target
 help:
@@ -159,9 +348,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Wargame"
 	@echo "... edit_cache"
-	@echo "... Test.o"
-	@echo "... Test.i"
-	@echo "... Test.s"
+	@echo "... Board.o"
+	@echo "... Board.i"
+	@echo "... Board.s"
+	@echo "... Demo.o"
+	@echo "... Demo.i"
+	@echo "... Demo.s"
+	@echo "... FootCommander.o"
+	@echo "... FootCommander.i"
+	@echo "... FootCommander.s"
+	@echo "... FootSoldier.o"
+	@echo "... FootSoldier.i"
+	@echo "... FootSoldier.s"
+	@echo "... Paramedic.o"
+	@echo "... Paramedic.i"
+	@echo "... Paramedic.s"
+	@echo "... ParamedicCommander.o"
+	@echo "... ParamedicCommander.i"
+	@echo "... ParamedicCommander.s"
+	@echo "... Sniper.o"
+	@echo "... Sniper.i"
+	@echo "... Sniper.s"
+	@echo "... SniperCommander.o"
+	@echo "... SniperCommander.i"
+	@echo "... SniperCommander.s"
 .PHONY : help
 
 
