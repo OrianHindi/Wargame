@@ -1,3 +1,6 @@
+![Screenshot_2](https://user-images.githubusercontent.com/58143750/83024007-5ac8ab00-a036-11ea-9614-e1081ac6a34b.png)
+
+
 <div dir="rtl" lang="he">
 
 # משחק מלחמה - שלב א
