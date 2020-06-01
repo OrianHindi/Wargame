@@ -42,7 +42,8 @@ void WarGame::Board::move(uint player_number, pair<int,int> source, MoveDIR dire
         throw invalid_argument("Action is forbidden,out of Board");
     }
     if(toMove == nullptr || toMove->player!=player_number || (*this)[target]!= nullptr){
-        throw invalid_argument("Action is forbidden");
+
+        throw invalid_argument("Action is forbidden a");
     }
 
     (*this)[target]=toMove;

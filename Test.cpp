@@ -125,33 +125,33 @@ TEST_CASE("Move Function - Commander"){
             CHECK(typeid(*p[{3,2}])== typeid(FootCommander));
 
     p.move(1,{2,3},WarGame::Board::Down);
-          CHECK(p[{2,3}]==nullptr);
+            CHECK(p[{2,3}]==nullptr);
             CHECK(typeid(*p[{1,3}])==typeid(SniperCommander));
 
 
     p.move(1,{4,3},WarGame::Board::Down);
-          CHECK(p[{4,3}]==nullptr);
+            CHECK(p[{4,3}]==nullptr);
             CHECK(typeid(*p[{3,3}])==typeid(ParamedicCommander));
 
 
     p.move(2,{0,4},WarGame::Board::Up);
-          CHECK(p[{0,4}]==nullptr);
+            CHECK(p[{0,4}]==nullptr);
             CHECK(typeid(*p[{1,4}])== typeid(FootCommander));
 
     p.move(2,{0,3},WarGame::Board::Left);
-          CHECK(p[{0,3}]==nullptr);
+            CHECK(p[{0,3}]==nullptr);
             CHECK(typeid(*p[{0,2}])==typeid(SniperCommander));
-          CHECK(p[{1,3}]==nullptr);
+
 
     p.move(2,{4,4},WarGame::Board::Down);
-          CHECK(p[{4,4}]==nullptr);
+            CHECK(p[{4,4}]==nullptr);
             CHECK(typeid(*p[{3,4}])==typeid(ParamedicCommander));
 }
 
 TEST_CASE("Exceptions") {
     WarGame::Board p = fillBoard();
     //Out of board
-          CHECK_THROWS(p.move(1, {5, 1}, WarGame::Board::Up));
+            CHECK_THROWS(p.move(1, {5, 1}, WarGame::Board::Up));
             CHECK_THROWS(p.move(1, {0, 0}, WarGame::Board::Down));
             CHECK_THROWS(p.move(2, {3, 5}, WarGame::Board::Right));
             CHECK_THROWS(p.move(1, {4, 5}, WarGame::Board::Right));
@@ -181,7 +181,6 @@ TEST_CASE("Check Moves"){
             CHECK_NOTHROW(p.move(1,{0,0},WarGame::Board::Up));
             CHECK_NOTHROW(p.move(1,{0,1},WarGame::Board::Left));
             CHECK_NOTHROW(p.move(1,{2,1},WarGame::Board::Down));
-            CHECK_NOTHROW(p.move(2,{0,3},WarGame::Board::Right));
             CHECK_NOTHROW(p.move(2,{3,0},WarGame::Board::Down));
             CHECK_NOTHROW(p.move(2,{3,3},WarGame::Board::Right));
             CHECK_NOTHROW(p.move(2,{3,5},WarGame::Board::Down));
@@ -193,15 +192,3 @@ TEST_CASE("Check Moves"){
             CHECK_NOTHROW(p.move(1,{5,5},WarGame::Board::Left));
             CHECK_NOTHROW(p.move(1,{4,0},WarGame::Board::Right));
 }
-
-
-
-
-
-
-
-
-
-
-
-

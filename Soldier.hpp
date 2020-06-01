@@ -5,6 +5,8 @@
 #include <limits>
 #include <iostream>
 #include <cmath>
+#include <stdexcept>
+#include <iomanip>
 
 
 class Soldier{
@@ -25,7 +27,9 @@ public:
 
     std::pair<int,int> minDistance (std::pair<int,int> source,const std::vector<std::vector<Soldier*>>& board){
         std::pair<int,int> ans;
-        double min=std::numeric_limits<double>::max();
+        int min=std::numeric_limits<int>::max();
+        ans.first=min;
+        ans.second=min;
         int toAttack;
         double distance;
         if(board[source.first][source.second]->player==1) toAttack=2; //check who i need to attack;
@@ -42,8 +46,32 @@ public:
                 }
             }
         }
+     //   print_board(board,source);
         return ans;
     }
+//    void print_board( const std::vector<std::vector<Soldier*>> &board,std::pair<int,int> source){
+//         std::cout << std::fixed << std::setprecision(2) << std::setfill('0');
+//        for(int i=0; i<board.size();i++){
+//            for(int j=0; j< board.size();j++){
+//                if( i == source.first && j == source.second){
+//                     std::cout << "||" << std::setw(9) << "!!!!!!!!!";
+//                }
+//                else if (board[i][j]==0)
+//                {
+//                     std::cout << "||" << std::setw(9)<< "000000000";
+//                }
+//                else
+//                {
+//                     std::cout << "||" << std::setw(9)<<  board[i][j];
+//                }
+//
+//
+//            }
+//             std::cout << "||" << std::endl;
+//        }
+//         std::cout << "" << std::endl;
+//    }
+
 
 };
 
