@@ -192,3 +192,24 @@ TEST_CASE("Check Moves"){
             CHECK_NOTHROW(p.move(1,{5,5},WarGame::Board::Left));
             CHECK_NOTHROW(p.move(1,{4,0},WarGame::Board::Right));
 }
+TEST_CASE("Extra"){
+    WarGame::Board b (4,4);
+            CHECK(!b.has_soldiers(1));
+            CHECK(!b.has_soldiers(2));
+    b[{0,0}]= new FootSoldier(1);
+            CHECK(!b.has_soldiers(2));
+            CHECK(b.has_soldiers(1));
+    b[{3,3}] = new Sniper(2);
+            CHECK(b.has_soldiers(1));
+            CHECK(b.has_soldiers(2));
+    b.move(1,{0,0},WarGame::Board::Up);
+            CHECK(b.has_soldiers(1));
+            CHECK(b.has_soldiers(2));
+    b.move(2,{3,3},WarGame::Board::Down);
+            CHECK(b.has_soldiers(1));
+            CHECK(b.has_soldiers(2));
+    b.move(2,{2,3},WarGame::Board::Down);
+            CHECK(b.has_soldiers(2));
+            CHECK(!b.has_soldiers(1));
+
+}
